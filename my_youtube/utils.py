@@ -1,6 +1,6 @@
 from pytube import YouTube
 from datetime import date
-from my_youtube.api import constantes as const
+import my_youtube.constantes as const
 import resend
 from dotenv import load_dotenv
 load_dotenv()
